@@ -1,0 +1,3 @@
+﻿  Result.cpp
+D:\CP\CPP\Result.cpp(13,21): warning C4305: инициализация: усечение из "double" в "float"
+  CPP.vcxproj -> D:\CP\LOK_2023\Debug\CPP.exe

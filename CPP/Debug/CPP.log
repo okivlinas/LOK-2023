@@ -1,3 +1,6 @@
 ﻿  Result.cpp
-D:\CP\CPP\Result.cpp(13,21): warning C4305: инициализация: усечение из "double" в "float"
+D:\CP\CPP\Result.cpp(56,22): warning C4305: инициализация: усечение из "double" в "float"
+D:\CP\CPP\Result.cpp(59,29): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+LIB.lib(LIB.obj) : warning LNK4099: "" PDB не найден с "LIB.lib(LIB.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+LIB.lib(pch.obj) : warning LNK4099: "" PDB не найден с "LIB.lib(pch.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
   CPP.vcxproj -> D:\CP\LOK_2023\Debug\CPP.exe

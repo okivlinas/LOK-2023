@@ -1,14 +1,14 @@
 
----- Протокол ------ 19.12.2023 11:08:37 --------
+---- Протокол ------ 29.12.2023 15:22:06 --------
 ---- Исходные данные --------
-Количество символов:	132
+Количество символов:	873
 Проигнорировано:		0
-Количество строк:		15
+Количество строк:		48
 -in:	in.txt
 -out:	D:\CP\CPP\Result.cpp
 -log:	in.txt.log
 ---- Код, разобранный на лексемы: ----
-m{ist=l;(lVl)?T{c(l);}L{c(l);}rl;}
+isf(ist)st{ist=l;p(l,i,l,i{i=i(i,i);});ri;}isf(ist)sa{(iVl)?T{c(l,i,l);}L{c(l,i,l);}}m{ist=l;ist=i(i);c(l,i,l,i,l);ist=l;i(i);ist=l;ist=l;ist=ivi;ist=ivivi;ist=~i;c(l,i,l);c(l,i,l);c(l,i,l);ist=l;c(l,i,l);ist=l;c(l,i,l);ist=l;isf(ist)st{ist=i;(i(i,i)Vl)?T{ri(i,l);}ri;};c(l,i(i));rl;}
 Таблица лексем:						LT.txt
 Таблица идентификаторов:			IT.txt
 Результат синтаксического анализа:  SNT.txt

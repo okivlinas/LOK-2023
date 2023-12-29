@@ -1,14 +1,47 @@
+fact is foo(a is num) is num
+{
+    res => 1;
+    For(1, a, 1, i => 
+    {
+        res = mult(res, i); 
+    });
+    return res;
+}
+
+your is foo(n is num) is action
+{
+    (n == x3FD) ? {
+        console(`Вы верно представили число `, n, ` в шестнадцатиричном формате!\n`);
+    } : {
+        console(`Вы неверно представили число `, n, ` в шестнадцатиричном формате!\n`);
+    }
+}
+
 main
 {
-      a => .23;
-      (a is num) ?
-      Truth
-       {
-             console(`A это целочисленный тип`);
-       }
-       Lie
-       {
-             console(`А это не целочисленный тип`);
-       }
-       return 0;
+    n is num = 5;
+
+    res is num = fact(n);
+    console(`Факториал `, n, ` равен: `, res, '\n');
+
+    n1 is num = 225;
+    your(n1);
+
+    a1 is num = 5;
+    a2 => 3;
+    bit1 is num = a1 & a2;
+    bit2 is num = a1 | a2 | a2;
+    bit3 is num = ~a2;
+    console(`a1 & a2: `, bit1, '\n');
+    console(`a1 | a2: `, bit2, '\n');
+    console(`~a2: `, bit3, '\n');
+
+    c is symb = 'c';
+    console(`Переменная типа СИМВОЛ инициализорованная явно: `,c, '\n');
+    s => 'f';
+    console(`Переменная типа СИМВОЛ инициализорованная неявно: `,s, '\n');
+
+    f1 is float = 5.6;
+    @import round;
+    console(`Результат округления f1: `, round(f1));
 }
